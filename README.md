@@ -20,3 +20,9 @@ git init
 |`git status` | # Full status |
 |`git status -s` | # Short status |
 
+
+**Committing the staged files**
+| Command | Description |
+|:---------| :------------ |
+|`git commit -m "Message"` | # Commits with a one-line message |
+|`git commit` | # Opens the default editor to type a long message |
