@@ -1,2 +1,2 @@
-# git-cheat-sheet
-Most used git commands
+# Git Cheat Sheet
+      
