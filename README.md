@@ -13,3 +13,10 @@ git init
 |`git add file.js file2.js` | # Stages multiple files |
 |`git add *.js` | # Stages with a pattern |
 |`git add .` | # Stages the current directory and all its content |
+
+**Viewing the status**
+| Command | Description |
+|:---------| :------------ |
+|`git status` | # Full status |
+|`git status -s` | # Short status |
+
