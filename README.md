@@ -26,3 +26,9 @@ git init
 |:---------| :------------ |
 |`git commit -m "Message"` | # Commits with a one-line message |
 |`git commit` | # Opens the default editor to type a long message |
+
+**Removing files**
+| Command | Description |
+|:---------| :------------ |
+|`git rm file1.js` | # Removes from working directory & staging area |
+|`git rm --cached file1.js` | # Removes fom staging area only |
