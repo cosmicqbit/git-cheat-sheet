@@ -45,3 +45,10 @@ git init
 |`git diff` | # Shows unstaged changes |
 |`git diff --staged`| # Shows staged changes |
 |`git diff --cached` | # Same as the above |
+
+**Viewing the history**
+| Command | Description |
+|:---------| :------------ |
+|`git log` | # Full history |
+|`git log --oneline` | # Summary |
+|`git log --reverse | # Lists the commits from the oldest to the newest |
