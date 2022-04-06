@@ -32,3 +32,14 @@ git init
 |:---------| :------------ |
 |`git rm file1.js` | # Removes from working directory & staging area |
 |`git rm --cached file1.js` | # Removes fom staging area only |
+
+**Renaming or moving files**
+| Command | Description |
+|:---------| :------------ |
+|`git mv file.js file1.js`| # Renames or moves existing file to new |
+
+
+**Viewing the staged/unstaged changes**
+| Command | Description |
+|:---------| :------------ |
+
