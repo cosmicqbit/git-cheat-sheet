@@ -52,3 +52,10 @@ git init
 |`git log` | # Full history |
 |`git log --oneline` | # Summary |
 |`git log --reverse` | # Lists the commits from the oldest to the newest |
+
+**Viewing the history**
+| Command | Description |
+|:---------| :------------ |
+|`git log` | # full history |
+|`git log --oneline` | # Summary |
+|`git --reverse` | # Lists the commits from the oldest to the newest |
