@@ -53,9 +53,10 @@ git init
 |`git log --oneline` | # Summary |
 |`git log --reverse` | # Lists the commits from the oldest to the newest |
 
-**Viewing the history**
+**Viewing a commit**
 | Command | Description |
 |:---------| :------------ |
-|`git log` | # full history |
-|`git log --oneline` | # Summary |
-|`git --reverse` | # Lists the commits from the oldest to the newest |
+|`git show 93412ff` | # Shows the given commit |
+|`git show HEAD` | # Shows the last commit |
+|`git show HEAD~2` | # Two steps before the last commmit |
+|`git show HEAD:file.js` | # Shows the version of file.js store in the last commit |
