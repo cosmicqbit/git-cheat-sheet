@@ -66,3 +66,11 @@ git init
 | Command | Description |
 |:---------| :------------ |
 |`git restore --staged file.css blob.js` | # Copies the last version of file from last snapshot to index
+
+**Discarding local changes**
+| Command | Description |
+|:---------| :------------ |
+|`git restore file.css` | # Copies file.css from index to working directory |
+|`git restore file.css text.sh | # Restore multiple files in working directory |
+|`git restore .` | # Discards all local changes (except untracked files) |
+|`git clean -fd` | # Removes all untracked files | 
