@@ -60,3 +60,4 @@ git init
 |`git show HEAD` | # Shows the last commit |
 |`git show HEAD~2` | # Two steps before the last commmit |
 |`git show HEAD:file.js` | # Shows the version of file.js store in the last commit |
+|`git ls-tree HEAD~1` | # Shows commit when multiple directorires are included |
