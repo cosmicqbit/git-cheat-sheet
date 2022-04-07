@@ -61,3 +61,8 @@ git init
 |`git show HEAD~2` | # Two steps before the last commmit |
 |`git show HEAD:file.js` | # Shows the version of file.js store in the last commit |
 |`git ls-tree HEAD~1` | # Shows commit when multiple directorires are included |
+
+**Unstaging files (undoing git add)**
+| Command | Description |
+|:---------| :------------ |
+|`git restore --staged file.css blob.js` | # Copies the last version of file from last snapshot to index
