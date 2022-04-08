@@ -93,3 +93,11 @@ git restore --source=HEAD~2 file.js
 |:---------| :------------ |
 |`git log --stat` | # Shows the list of modified files |
 |`git log --patch` | # Shows the actual changes (patches) |
+
+**Filtering the history**
+| Command | Description |
+|:---------| :------------ |
+|`git log -3` | # Shows the last 3 entries | 
+|`git log --author="cosmicqbit"` | # Filter commits by author |
+|`git log --before="2022-03-6"` | # Show commits before date |
+|`git log --after="one week ago"` | # Show commits after date | 
