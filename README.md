@@ -103,4 +103,5 @@ git restore --source=HEAD~2 file.js
 |`git log --after="one week ago"` | # Show commits after date | 
 |`git log --grep="GUI"` | # Commits with "GUI" in their message |
 |`git log -S"Copy Tools"` | # Commits with "Copy Tools" in their patches |
-
+|`git log hash1..hash2` | # Range of commits |
+|`git log file.txt` | #Commits that touched file.txt |
