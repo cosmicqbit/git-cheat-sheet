@@ -86,4 +86,10 @@ git config --global user.email "email@example.com"
 git restore --source=HEAD~2 file.js
 ```
 
-## Creating History
+## Browsing History
+
+**Viewing the history**
+| Command | Description |
+|:---------| :------------ |
+|`git log --stat` | # Shows the list of modified files |
+|`git log --patch` | # Shows the actual changes (patches) |
