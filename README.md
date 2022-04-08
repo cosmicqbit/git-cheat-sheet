@@ -1,5 +1,8 @@
 # Git Cheat Sheet
-      
+
+# Table of Content
+1. [Creating Snapshots](#Creating-Snapshots)
+2. [Browsing History](#Browsing-History)
 ## Creating Snapshots
 **Initializing a repository**
 ```
