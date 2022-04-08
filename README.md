@@ -6,7 +6,7 @@
 3. [Branching & Merging](#)
 4. [Collaboration](#)
 5. [Rewriting History](#)
-### Creating Snapshots
+## Creating Snapshots
 **Initializing a repository**
 ```
 git init
@@ -93,7 +93,7 @@ git restore --source=HEAD~2 file.js
 ```
 ---
 
-### Browsing History
+## Browsing History
 
 **Viewing the history**
 | Command | Description |
