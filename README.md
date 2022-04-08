@@ -86,4 +86,4 @@ git config --global user.email "email@example.com"
 git restore --source=HEAD~2 file.js
 ```
 
-##Creating History
+## Creating History
