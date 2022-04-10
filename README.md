@@ -125,3 +125,9 @@ git restore --source=HEAD~2 file.js
 |:---------| :------------ |
 |`git config --global alias.lg "log --oneline"` | # `git lg` will do the job |
 |`git config --global alias.unstage "restore --staged` | # `git unstage` will do the job |
+
+**Viewing a commit**
+| Command | Description |
+|:---------| :------------ |
+|`git show HEAD~2` | # Alt method for displaying using hash |
+|`git show HEAD~2 HEAD file.txt` | # Changes to file.txt only | 
