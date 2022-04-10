@@ -124,3 +124,4 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git config --global alias.lg "log --oneline"` | # `git lg` will do the job |
+|`git config --global alias.unstage "restore --staged` | # `git unstage` will do the job |
