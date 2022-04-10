@@ -112,3 +112,8 @@ git restore --source=HEAD~2 file.js
 |`git log -S"Copy Tools"` | # Commits with "Copy Tools" in their patches |
 |`git log hash1..hash2` | # Range of commits |
 |`git log file.txt` | #Commits that touched file.txt |
+
+**Formatting the log output**
+| Command | Description |
+|:---------| :------------ |
+|`git log --pretty=format:"%an commited %H"` | # Shows author name commited hash |
