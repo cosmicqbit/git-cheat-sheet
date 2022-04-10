@@ -119,3 +119,8 @@ git restore --source=HEAD~2 file.js
 |`git log --pretty=format:"%an commited %H"` | # Shows author name commited hash |
 `git log --pretty=format:"%an commited %h on %cd "` | # Above with commit date |
 `git log --pretty=format:"%Cgreen%an%Creset commited %H"` | # Colorizes the author name | 
+
+**Creating an alias**
+| Command | Description |
+|:---------| :------------ |
+|`git config --global alias.lg "log --oneline"` | # `git lg` will do the job |
