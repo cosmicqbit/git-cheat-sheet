@@ -117,3 +117,5 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git log --pretty=format:"%an commited %H"` | # Shows author name commited hash |
+`git log --pretty=format:"%an commited %h on %cd "` | # Above with commit date |
+`git log --pretty=format:"%Cgreen%an%Creset commited %H"` | # Colorizes the author name | 
