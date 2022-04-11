@@ -142,3 +142,6 @@ git restore --source=HEAD~2 file.js
 **Checking out a commits**
 | Command | Description |
 |:---------| :------------ |
+|`git checkout rad763g` | # Checks out the given commit |
+|`git checkout master` | # Checks out the master branch | 
+
