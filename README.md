@@ -131,3 +131,7 @@ git restore --source=HEAD~2 file.js
 |:---------| :------------ |
 |`git show HEAD~2` | # Alt method for displaying using hash |
 |`git show HEAD~2 HEAD file.txt` | # Changes to file.txt only | 
+
+**Comparing commits**
+| Command | Description |
+|:---------| :------------ |
