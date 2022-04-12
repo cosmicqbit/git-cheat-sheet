@@ -153,4 +153,7 @@ git restore --source=HEAD~2 file.js
 |`git bisect good ca49190` | # Marks the given commit as a good commit |
 |`git bisect reset` | # Terminates the bisect session |
 
-
+**Finding contributors**
+| Command | Description |
+|:---------| :------------ |
+|`git shortlog` | # List contributors list |
