@@ -148,3 +148,9 @@ git restore --source=HEAD~2 file.js
 **Finding a bad commit (Bisection method)**
 | Command | Description |
 |:---------| :------------ |
+|`git bisect start`| # Initializing the method |
+|`git bisect bad` | # Marks the current commit as a bad commit |
+|`git bisect good ca49190` | # Marks the given commit as a good commit |
+|`git bisect reset` | # Terminates the bisect session |
+
+
