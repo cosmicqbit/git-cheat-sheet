@@ -170,8 +170,8 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git log --oneline -- toc.txt` | # List all commits which touched the file |
-|`git checkout a64d33 toc.txt` | |
-|`git status -s` ||
-|`git commit -m "commit message"` | |
+|`git checkout a64d33 toc.txt` |# Step 2 |
+|`git status -s` |# Step 3|
+|`git commit -m "commit message"` |# Step 4 |
 
 
