@@ -157,3 +157,4 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git shortlog` | # List contributors list |
+|`git shortlog -n -s -e` | # Lists contributors in order, suppresses commit m & displays email |      
