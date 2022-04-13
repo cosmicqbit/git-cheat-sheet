@@ -174,4 +174,7 @@ git restore --source=HEAD~2 file.js
 |`git status -s` |# Step 3|
 |`git commit -m "commit message"` |# Step 4 |
 
-
+**Finding the author of line(s)**
+| Command | Description |
+|:---------| :------------ |
+|`git blame file.txt` | # Shows the author of each line in file.txt | 
