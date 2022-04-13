@@ -186,4 +186,7 @@ git restore --source=HEAD~2 file.js
 |`git tag v.1.0.1 4e4a897` | # Tags an earlier commit |
 |`git checkout v.1.9` | # Checks out the given tag |
 |`git tag` | # Lists all the tags |
-
+|`git tag -a v1.1 -m "My version 1.1" | # Create annotated tag |
+|`git tag -n` | # Display commit messages with annotated tags |
+|`git show v1.1` | # Show tag details |
+|`git tag -d v1.1 | # Deletes the given tag
