@@ -160,4 +160,6 @@ git restore --source=HEAD~2 file.js
 |`git shortlog -n -s -e` | # Lists contributors in order, suppresses commit m & displays email |   
 
 **Viewing the history of a file**
+| Command | Description |
+|:---------| :------------ |
 |`git log file.txt` | # Shows the commits that touched file.txt |
