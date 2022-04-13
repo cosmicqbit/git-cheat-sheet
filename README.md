@@ -183,3 +183,5 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git tag v1.0` | # Tags the last commit  as v1.0 |
+|`git tag v.1.0.1 4e4a897` | # Tags an earlier commit |
+`
