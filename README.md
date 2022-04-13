@@ -163,3 +163,5 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git log file.txt` | # Shows the commits that touched file.txt |
+|`git log --oneline --stat file.txt` | # Shows stats (no of changes) for file.txt |
+  
