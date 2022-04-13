@@ -178,3 +178,8 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git blame file.txt` | # Shows the author of each line in file.txt | 
+
+**Tagging**
+| Command | Description |
+|:---------| :------------ |
+|`git tag v1.0` | # Tags the last commit  as v1.0 |
