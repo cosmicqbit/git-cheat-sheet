@@ -198,4 +198,5 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git branch bugfix` | # Creates a new branch called bugfix |
-|`git checkout new-feature` | # Switches to the new-feature branch |
+|`git checkout feature` | # Switches to the feature branch |
+|`git switch feature` | # Same as the above |
