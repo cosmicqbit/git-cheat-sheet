@@ -194,3 +194,6 @@ git restore --source=HEAD~2 file.js
 ## Branching & Merging
 
 **Managing branches**
+| Command | Description |
+|:---------| :------------ |
+|`git branch bugfix` | # Creates a new branch called bugfix |
