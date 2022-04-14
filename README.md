@@ -3,7 +3,7 @@
 ## Table of Content
 1. [Creating Snapshots](#Creating-Snapshots)
 2. [Browsing History](#Browsing-History)
-3. [Branching & Merging](#)
+3. [Branching & Merging](#Branching-&-Merging)
 4. [Collaboration](#)
 5. [Rewriting History](#)
 ## Creating Snapshots
