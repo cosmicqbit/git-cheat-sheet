@@ -91,10 +91,10 @@ git config --global user.email "email@example.com"
 ```
 git restore --source=HEAD~2 file.js
 ```
----
+
 
 ## Browsing History
-
+---
 **Viewing the history**
 | Command | Description |
 |:---------| :------------ |
@@ -200,3 +200,5 @@ git restore --source=HEAD~2 file.js
 |`git branch bugfix` | # Creates a new branch called bugfix |
 |`git checkout feature` | # Switches to the feature branch |
 |`git switch feature` | # Same as the above |
+|`git switch -C feature` | # Creates & switches |
+|`git branch -d bugfix` | # Deletes the feature branch |
