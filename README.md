@@ -192,6 +192,7 @@ git restore --source=HEAD~2 file.js
 |`git tag -d v1.1` | # Deletes the given tag
 
 ## Branching & Merging
+---
 
 **Managing branches**
 | Command | Description |
