@@ -204,3 +204,8 @@ git restore --source=HEAD~2 file.js
 |`git branch -d bugfix` | # Deletes the feature branch |
 |`git status` | # Check the current branch name |
 |`git branch -m feature new-feature` | # Renames the branch to new-feature |
+
+**Comparing branches**
+| Command | Description |
+|:---------| :------------ |
+
