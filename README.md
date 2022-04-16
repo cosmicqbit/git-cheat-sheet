@@ -208,4 +208,5 @@ git restore --source=HEAD~2 file.js
 **Comparing branches**
 | Command | Description |
 |:---------| :------------ |
-
+|`git log master..bugfix` | # Lists the commits in the bugfix branch not in master |
+|`git diff master..bugfix` | # Shows the summary of changes |
