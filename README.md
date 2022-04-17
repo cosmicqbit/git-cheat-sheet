@@ -220,4 +220,5 @@ git restore --source=HEAD~2 file.js
 |`git stash show stash@(1)` | # Shows the given stash |
 |`git stash show 1` | # Shortcut for stash@(1) |
 |`git stash apply 1` | # Applies the given stash to the working dir |
-
+|`git stash drop 1` | # Deletes the given stash |
+|`git stash clear` | # Deletes all the stashes |
