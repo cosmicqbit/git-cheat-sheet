@@ -227,3 +227,4 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git merge bugfix`| # Merges the bugfix branch into the current branch |
+|`git merge --no-ff bugfix` | # Creates a merge commit even if FF is possible |
