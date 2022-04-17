@@ -215,3 +215,5 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git stash push -m "Stash message"`| # Creates a new stash |
+|`git stash push -a -m "Stash message"` | # Stashes untracked files as well |
+
