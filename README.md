@@ -217,3 +217,7 @@ git restore --source=HEAD~2 file.js
 |`git stash push -m "Stash message"`| # Creates a new stash |
 |`git stash push -a -m "Stash message"` | # Stashes untracked files as well |
 |`git stash list` | # Lists all the stahes |
+|`git stash show stash@(1)` | # Shows the given stash |
+|`git stash show 1` | # Shortcut for stash@(1) |
+|`git stash apply 1` | # Applies the given stash to the working dir |
+
