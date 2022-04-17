@@ -222,3 +222,8 @@ git restore --source=HEAD~2 file.js
 |`git stash apply 1` | # Applies the given stash to the working dir |
 |`git stash drop 1` | # Deletes the given stash |
 |`git stash clear` | # Deletes all the stashes |
+
+**Merging**
+| Command | Description |
+|:---------| :------------ |
+|`git merge bugfix`| # Merges the bugfix branch into the current branch |
