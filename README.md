@@ -210,3 +210,8 @@ git restore --source=HEAD~2 file.js
 |:---------| :------------ |
 |`git log master..bugfix` | # Lists the commits in the bugfix branch not in master |
 |`git diff master..bugfix` | # Shows the summary of changes |
+
+**Stashing**
+| Command | Description |
+|:---------| :------------ |
+|`git stash push -m "Stash message"`| # Creates a new stash |
