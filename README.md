@@ -3,6 +3,9 @@
 ## Table of Content
 1. [Creating Snapshots](#Creating-Snapshots)
     * [Setting git credentials](#Setting-your-Git-credentials-for-every-repository-on-your-computer)
+    * [Staging files](#Staging-files)
+    * [Viewing the status](#Viewing-the-status)
+    * [Committing the staged files](#committing-the-staged-files)
 2. [Browsing History](#Browsing-History)
 3. [Branching & Merging](#Branching--Merging)
 4. [Collaboration](#)
