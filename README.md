@@ -13,7 +13,7 @@
     * [Viewing a commit](#Viewing-a-commit)
     * [Unstaging files](#unstaging-files-undoing-git-add)
     * [Discarding local changes](#discarding-local-changes)
-    * [Restoring earlier version of file](#restoring-earlier-version-of-a-file)
+    * [Restoring earlier version of file](#restoring-an-earlier-version-of-a-file)
 2. [Browsing History](#Browsing-History)
 3. [Branching & Merging](#Branching--Merging)
 4. [Collaboration](#)
