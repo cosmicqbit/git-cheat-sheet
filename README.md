@@ -242,3 +242,7 @@ git restore --source=HEAD~2 file.js
 |`git merge --no-ff bugfix` | # Creates a merge commit even if FF is possible |
 |`git merge --squash bugfix` | # Performs a squash merge |
 |`git merge --abort` | # Aborts the merge |
+
+**Viewing the merged branches**
+| Command | Description |
+|:---------| :------------ |
