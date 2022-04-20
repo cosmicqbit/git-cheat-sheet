@@ -246,3 +246,5 @@ git restore --source=HEAD~2 file.js
 **Viewing the merged branches**
 | Command | Description |
 |:---------| :------------ |
+|`git branch merged` | # Shows the merged branches |
+|`git branch --no-merged` | # Shows the unmerged branches |
