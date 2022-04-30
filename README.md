@@ -248,3 +248,7 @@ git restore --source=HEAD~2 file.js
 |:---------| :------------ |
 |`git branch merged` | # Shows the merged branches |
 |`git branch --no-merged` | # Shows the unmerged branches |
+
+**Rebasing**
+| Command | Description |
+|`git rebase master` | # Changes the base of the current branch |
