@@ -251,4 +251,5 @@ git restore --source=HEAD~2 file.js
 
 **Rebasing**
 | Command | Description |
+|:---------| :------------ |
 |`git rebase master` | # Changes the base of the current branch |
