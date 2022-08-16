@@ -253,3 +253,7 @@ git restore --source=HEAD~2 file.js
 | Command | Description |
 |:---------| :------------ |
 |`git rebase master` | # Changes the base of the current branch |
+
+
+## Contribution
+If you want to contirbute to the repo, feel free to request PR.
