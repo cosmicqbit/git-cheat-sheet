@@ -257,3 +257,4 @@ git restore --source=HEAD~2 file.js
 
 ## Contribution
 If you want to contirbute to the repo, feel free to request PR.
+---
