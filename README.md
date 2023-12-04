@@ -21,7 +21,7 @@
    * [Creating an alias](#Creating-an-alias)
    * [Viewing a commit](#Viewing-a-commit)
    * [Comparing commits](#Comparing-commits)
-   * [Checking out commits)(#Checking-out-commits)
+   * [Checking out commits](#Checking-out-commits)
    * [Finding a bad commit (Bisection method)](#Finding-a-bad-commit-(Bisection-method))
    * [Finding contributors](#Finding-contributors)
    * [Viewing the history of a file](#Viewing-the-history-of-a-file)
