@@ -19,7 +19,7 @@
    * [Filtering the history](#Filtering-the-history)
    * [Formatting the log output](#Formatting-the-log-output)
    * [Creating an alias](#Creating-an-alias)
-   * [Viewing a commit](#Viewing-a-commit)
+   * [Viewing a commit](#Viewing-a-commit-1)
    * [Comparing commits](#Comparing-commits)
    * [Checking out commits](#Checking-out-commits)
    * [Finding a bad commit (Bisection method)](#Finding-a-bad-commit-Bisection-method)
