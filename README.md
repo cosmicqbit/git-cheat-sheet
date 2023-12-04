@@ -15,6 +15,19 @@
     * [Discarding local changes](#discarding-local-changes)
     * [Restoring earlier version of file](#restoring-an-earlier-version-of-a-file)
 2. [Browsing History](#Browsing-History)
+   * [Viewing the history](#Viewing-the-history)
+   * [Filtering the history](#Filtering-the-history)
+   * [Formatting the log output](#Formatting-the-log-output)
+   * [Creating an alias](#Creating-an-alias)
+   * [Viewing a commit](#Viewing-a-commit)
+   * [Comparing commits](#Comparing-commits)
+   * [Checking out commits)(#Checking-out-commits)
+   * [Finding a bad commit (Bisection method)](#Finding-a-bad-commit-(Bisection-method))
+   * [Finding contributors](#Finding-contributors)
+   * [Viewing the history of a file](#Viewing-the-history-of-a-file)
+   * [Recovering a deleted file](#Recovering-a-deleted-file)
+   * [Finding the author of line(s)](#Finding-the-author-of-line(s))
+   * [Tagging](#Tagging)
 3. [Branching & Merging](#Branching--Merging)
 4. [Collaboration](#)
 5. [Rewriting History](#)
@@ -151,7 +164,7 @@ git restore --source=HEAD~2 file.js
 |`git diff HEAD~2 HEAD file.txt` | # Changes to file.txt only |
 
 
-**Checking out a commits**
+**Checking out commits**
 | Command | Description |
 |:---------| :------------ |
 |`git checkout rad763g` | # Checks out the given commit |
