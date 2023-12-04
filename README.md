@@ -29,6 +29,12 @@
    * [Finding the author of line(s)](#Finding-the-author-of-lines)
    * [Tagging](#Tagging)
 3. [Branching & Merging](#Branching--Merging)
+   * [Managing branches](#Managing-branches)
+   * [Comparing branches](#Comparing-branches)
+   * [Stashing](#Stashing)
+   * [Merging](#Merging)
+   * [Viewing the merged branches](#Viewing-the-merged-branches)
+   * [Rebasing](#rebasing)
 4. [Collaboration](#)
 5. [Rewriting History](#)
 ## Creating Snapshots
