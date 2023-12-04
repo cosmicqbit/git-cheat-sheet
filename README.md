@@ -224,7 +224,7 @@ git restore --source=HEAD~2 file.js
 ## Branching & Merging
 ---
 
-**Managing branches**
+#### Managing branches
 | Command | Description |
 |:---------| :------------ |
 |`git branch bugfix` | # Creates a new branch called bugfix |
@@ -235,13 +235,13 @@ git restore --source=HEAD~2 file.js
 |`git status` | # Check the current branch name |
 |`git branch -m feature new-feature` | # Renames the branch to new-feature |
 
-**Comparing branches**
+#### Comparing branches
 | Command | Description |
 |:---------| :------------ |
 |`git log master..bugfix` | # Lists the commits in the bugfix branch not in master |
 |`git diff master..bugfix` | # Shows the summary of changes |
 
-**Stashing**
+#### Stashing
 | Command | Description |
 |:---------| :------------ |
 |`git stash push -m "Stash message"`| # Creates a new stash |
@@ -253,7 +253,7 @@ git restore --source=HEAD~2 file.js
 |`git stash drop 1` | # Deletes the given stash |
 |`git stash clear` | # Deletes all the stashes |
 
-**Merging**
+#### Merging
 | Command | Description |
 |:---------| :------------ |
 |`git merge bugfix`| # Merges the bugfix branch into the current branch |
@@ -261,7 +261,7 @@ git restore --source=HEAD~2 file.js
 |`git merge --squash bugfix` | # Performs a squash merge |
 |`git merge --abort` | # Aborts the merge |
 
-**Viewing the merged branches**
+#### Viewing the merged branches
 | Command | Description |
 |:---------| :------------ |
 |`git branch merged` | # Shows the merged branches |
