@@ -120,13 +120,13 @@ git restore --source=HEAD~2 file.js
 
 ## Browsing History
 ---
-**Viewing the history**
+#### Viewing the history
 | Command | Description |
 |:---------| :------------ |
 |`git log --stat` | # Shows the list of modified files |
 |`git log --patch` | # Shows the actual changes (patches) |
 
-**Filtering the history**
+#### Filtering the history
 | Command | Description |
 |:---------| :------------ |
 |`git log -3` | # Shows the last 3 entries | 
@@ -138,39 +138,38 @@ git restore --source=HEAD~2 file.js
 |`git log hash1..hash2` | # Range of commits |
 |`git log file.txt` | #Commits that touched file.txt |
 
-**Formatting the log output**
+#### Formatting the log output
 | Command | Description |
 |:---------| :------------ |
 |`git log --pretty=format:"%an commited %H"` | # Shows author name commited hash |
 `git log --pretty=format:"%an commited %h on %cd "` | # Above with commit date |
 `git log --pretty=format:"%Cgreen%an%Creset commited %H"` | # Colorizes the author name | 
 
-**Creating an alias**
+#### Creating an alias
 | Command | Description |
 |:---------| :------------ |
 |`git config --global alias.lg "log --oneline"` | # `git lg` will do the job |
 |`git config --global alias.unstage "restore --staged` | # `git unstage` will do the job |
 
-**Viewing a commit**
+#### Viewing a commit
 | Command | Description |
 |:---------| :------------ |
 |`git show HEAD~2` | # Alt method for displaying using hash |
 |`git show HEAD~2 HEAD file.txt` | # Changes to file.txt only | 
 
-**Comparing commits**
+#### Comparing commits
 | Command | Description |
 |:---------| :------------ |
 |`git diff HEAD~2 HEAD` | # Shows the changes between two commits |
 |`git diff HEAD~2 HEAD file.txt` | # Changes to file.txt only |
 
-
-**Checking out commits**
+#### Checking out commits
 | Command | Description |
 |:---------| :------------ |
 |`git checkout rad763g` | # Checks out the given commit |
 |`git checkout master` | # Checks out the master branch | 
 
-**Finding a bad commit (Bisection method)**
+#### Finding a bad commit (Bisection method)
 | Command | Description |
 |:---------| :------------ |
 |`git bisect start`| # Initializing the method |
@@ -178,20 +177,20 @@ git restore --source=HEAD~2 file.js
 |`git bisect good ca49190` | # Marks the given commit as a good commit |
 |`git bisect reset` | # Terminates the bisect session |
 
-**Finding contributors**
+#### Finding contributors
 | Command | Description |
 |:---------| :------------ |
 |`git shortlog` | # List contributors list |
 |`git shortlog -n -s -e` | # Lists contributors in order, suppresses commit m & displays email |   
 
-**Viewing the history of a file**
+#### Viewing the history of a file
 | Command | Description |
 |:---------| :------------ |
 |`git log file.txt` | # Shows the commits that touched file.txt |
 |`git log --oneline --stat file.txt` | # Shows stats (no of changes) for file.txt |
 |`git log --patch file.txt` | # Shows the patches (changes) applied to file.txt | 
   
-**Recovering a deleted file**
+#### Recovering a deleted file
 | Command | Description |
 |:---------| :------------ |
 |`git log --oneline -- toc.txt` | # List all commits which touched the file |
@@ -199,12 +198,12 @@ git restore --source=HEAD~2 file.js
 |`git status -s` |# Step 3|
 |`git commit -m "commit message"` |# Step 4 |
 
-**Finding the author of line(s)**
+#### Finding the author of line(s)
 | Command | Description |
 |:---------| :------------ |
 |`git blame file.txt` | # Shows the author of each line in file.txt | 
 
-**Tagging**
+#### Tagging
 | Command | Description |
 |:---------| :------------ |
 |`git tag v1.0` | # Tags the last commit  as v1.0 |
